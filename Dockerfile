@@ -1,2 +1,2 @@
 FROM sushant227/tomcat:latest
-COPY build /usr/local/tomcat/webapps/
+COPY build /opt/tomcat
