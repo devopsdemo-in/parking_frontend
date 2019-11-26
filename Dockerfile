@@ -1,2 +1,3 @@
 FROM sushant227/tomcat:latest
-COPY build /opt/tomcat/webapps
+RUN mkdir /opt/tomcat/webapps/build
+COPY build/* /opt/tomcat/webapps/
