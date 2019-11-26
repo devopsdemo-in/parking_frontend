@@ -1,2 +1,2 @@
-FROM tomcat:8.0.51-jre8-alpine
+FROM sushant227/tomcat:latest
 COPY build /usr/local/tomcat/webapps/
